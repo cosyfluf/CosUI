@@ -7,6 +7,7 @@ def on_button_click():
 app = cosui.App(title="CosUI Demo", width=800, height=600)
 
 # Create a modern button with hover effects included
+# Y=275 is roughly center in a 600px window (works for both coord systems essentially)
 btn = cosui.Button(
     text="Click Me", 
     x=350, 
