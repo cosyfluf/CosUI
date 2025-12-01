@@ -30,7 +30,7 @@ pip install cosui
 ```
 ---
 
-##🛠️ How to Use
+## 🛠️ How to Use
 
 Here is a simple example showing how to create an app with a Button, a Label with custom colors, and an Input field.
 
@@ -59,19 +59,19 @@ app.add(Button(
     w=120, 
     on_click=on_submit
 ))
-```
+
 # 4. Run the App
 app.run()
+```
+## 🧩 Included Widgets
 
-##🧩 Included Widgets
+- * Button: Clickable, rounded, with hover states.
 
-#Button: Clickable, rounded, with hover states.
+- * Input: Text entry field with focus handling.
 
-#Input: Text entry field with focus handling.
+- * Panel: Colored rectangles for backgrounds and cards.
 
-#Panel: Colored rectangles for backgrounds and cards.
-
-#Label: Text rendering with custom sizes and colors.
+- * Label: Text rendering with custom sizes and colors.
 
 ---
 
